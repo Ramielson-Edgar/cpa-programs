@@ -57,7 +57,7 @@ window.addEventListener('DOMContentLoaded', () => {
             }
         })
 
-        tl.to(image, { "clip-path": "inset(0 0 200% 0)", ease: "none",});
+        tl.to(image, { "clip-path": "inset(0 0 200% 0)", ease: "power3.inOut",});
 
     });
 
@@ -89,7 +89,7 @@ window.addEventListener('DOMContentLoaded', () => {
                     start: "top bottom",
                     scrub: 1,
                 },
-                duration: 1, y: 50
+                duration: 1, y: 50,
             })
 
     });

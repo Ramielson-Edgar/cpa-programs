@@ -610,9 +610,9 @@ img {
     margin-top: 100px;
 }
 
-
+ 
 .cpa-program-why__item:last-child .cpa-program-why__section {
-    height: 50vh;
+    height: 60vh;
 }
 
 .cpa-program-why__section-title {
@@ -638,7 +638,7 @@ img {
 .cpa-program-why__img-container {
     position: sticky;
     top: 150px;
-    height: 50vh;
+    height: 60vh;
 }
 
 .cpa-program-why__img-container img {
@@ -652,8 +652,7 @@ img {
 }
 
 .cpa-program-material {
-    position: sticky;
-    top: 0;
+   position: relative;
 }
 
 .cpa-program-material__img-container {
