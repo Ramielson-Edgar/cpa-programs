@@ -51,13 +51,13 @@ window.addEventListener('DOMContentLoaded', () => {
 
             scrollTrigger: {
                 trigger: " .wrapper",
-                start: () => "top -" + (window.innerHeight * (i + 0.05)),
+                start: () => "top -" + (window.innerHeight * (i + 0.1)),
                 end: () => "+=" + window.innerHeight,
                 scrub: 1,
             }
         })
 
-        tl.to(image, { "clip-path": "inset(0 0 120% 0)", ease: "none", });
+        tl.to(image, { "clip-path": "inset(0 0 200% 0)", ease: "none",});
 
     });
 

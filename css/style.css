@@ -501,15 +501,12 @@ img {
 }
 
 .cpa-program-why__section {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  height: 80vh;
+  margin-top: 100px;
 }
 
 .cpa-program-why__item:last-child .cpa-program-why__section {
-  height: 80vh;
+  height: 50vh;
 }
 
 .cpa-program-why__section-title {
@@ -531,11 +528,7 @@ img {
   position: -webkit-sticky;
   position: sticky;
   top: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 70vh;
+  height: 50vh;
 }
 
 .cpa-program-why__img-container img {

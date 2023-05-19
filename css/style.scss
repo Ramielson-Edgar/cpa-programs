@@ -394,7 +394,7 @@ img {
 }
 
 
- 
+
 
 .cpa-program-profit__title {
     font-size: $font-size-20-16;
@@ -592,7 +592,7 @@ img {
 }
 
 
- 
+
 
 .cpa-program-why__title {
     font-size: $font-size-30-16;
@@ -606,14 +606,13 @@ img {
 }
 
 .cpa-program-why__section {
-    height: 100vh;
-    @include center-flex('all');
-    flex-direction: column;
-
+    height: 80vh;
+    margin-top: 100px;
 }
 
+
 .cpa-program-why__item:last-child .cpa-program-why__section {
-    height: 80vh;
+    height: 50vh;
 }
 
 .cpa-program-why__section-title {
@@ -639,10 +638,7 @@ img {
 .cpa-program-why__img-container {
     position: sticky;
     top: 150px;
-
-    @include center-flex('all');
-    flex-direction: column;
-    height: 70vh;
+    height: 50vh;
 }
 
 .cpa-program-why__img-container img {
