@@ -60,38 +60,8 @@ window.addEventListener('DOMContentLoaded', () => {
         tl.to(image, { "clip-path": "inset(0 0 200% 0)", ease: "power1.inOut", });
 
     });
+
  
-        // gsap.set(".panel-text", { zIndex: (i, target, targets) => targets.length - i });
-
-        // const texts = gsap.utils.toArray('.panel-text');
-    
-        // texts.forEach((text, i) => {
-    
-        //     var tl = gsap.timeline({
-    
-        //         scrollTrigger: {
-        //             trigger: ".wrapper",
-        //             start: () => "top -" + (window.innerHeight * i),
-        //             end: () => "+=" + window.innerHeight,
-        //             scrub: 1,
-        //         }
-    
-        //     })
-    
-        //     gsap
-        //         .from(text, {
-        //             scrollTrigger: {
-        //                 trigger: text,
-        //                 start: "top bottom",
-        //                 scrub: 1,
-        //             },
-        //             duration: 1, y: 50,
-        //         })
-    
-        // });
-  
-
-
 
     gsap.to(".hero-img-1", {
         scrollTrigger: {
@@ -119,9 +89,12 @@ window.addEventListener('DOMContentLoaded', () => {
     })
 
 
+
+
+
+ 
     ScrollTrigger.matchMedia({
         '(max-width:768px)': function () {
-
 
             const container = document.querySelector('.list-container')
             let items = gsap.utils.toArray(".cpa-program-why__item");
@@ -137,9 +110,30 @@ window.addEventListener('DOMContentLoaded', () => {
                 }
             })
 
-       
         },
-     
+
+        // '(max-width:576px)': function () {
+
+        //     const container = document.querySelector('.list-container')
+        //     let items = gsap.utils.toArray(".cpa-program-why__item");
+
+        //     gsap.to(items, {
+        //         xPercent: -90 * (items.length - 1),
+        //         ease: "none",
+        //         scrollTrigger: {
+        //             trigger: container,
+        //             pin: true,
+        //             scrub: 1,
+        //             end: "+=3000"
+        //         }
+        //     })
+
+
+
+
+
+        // },
+
     }
     )
 
