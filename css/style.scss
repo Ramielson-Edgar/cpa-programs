@@ -826,6 +826,16 @@ img {
 }
 
 
+.splide__pagination--ttb {
+    right: 0;
+    top: -50%;
+}
+
+
+.splide__pagination__page.is-active {
+    background-color: var(--blue-500);
+}
+
 
 @media (max-width:1198px) {
 
@@ -1239,6 +1249,10 @@ img {
 
     .cpa-program-why__list {
         margin-top: unset;
+    }
+
+    .splide__slide img {
+        width: 90%;
     }
 
 }

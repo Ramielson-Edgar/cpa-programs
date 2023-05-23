@@ -705,6 +705,15 @@ img {
   height: 4px;
 }
 
+.splide__pagination--ttb {
+  right: 0;
+  top: -50%;
+}
+
+.splide__pagination__page.is-active {
+  background-color: var(--blue-500);
+}
+
 @media (max-width: 1198px) {
   .cpa-program-header.hero .cpa-program-header__title {
     font-size: 45px;
@@ -1022,6 +1031,9 @@ img {
   }
   .cpa-program-why__list {
     margin-top: unset;
+  }
+  .splide__slide img {
+    width: 90%;
   }
 }
 @media (max-width: 375px) {
