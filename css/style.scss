@@ -799,8 +799,7 @@ img {
     margin-top: 50px;
 }
 
-.owl-carousel-price.owl-theme .owl-dots .owl-dot.active span,
-.owl-carousel-price.owl-theme .owl-dots .owl-dot:hover span {
+.owl-carousel-price.owl-theme .owl-dots .owl-dot.active span {
     width: 169px;
     height: 4px;
     border-radius: 5px;
@@ -939,7 +938,7 @@ img {
 
     .cpa-program-why__section-text {
         font-size: $font-size-14;
-         line-height: 24px;
+        line-height: 24px;
     }
 }
 
@@ -1091,7 +1090,7 @@ img {
 }
 
 @media (max-width:575.98px) {
- 
+
     .section-padding {
         padding: 50px 0;
     }
@@ -1123,13 +1122,15 @@ img {
 
 
     .cpa-program-why__title,
+    .cpa-program-header__title,
+    .cpa-program-profit__title,
     .cpa-program-platforms__title,
     .cpa-program-benefits__body-title,
     .cpa-program-plan__item-body-title,
     .cpa-program-plan__item-title {
         font-size: 1rem;
     }
- 
+
     .cpa-program-plan__item-text,
     .cpa-program-plan__item-body-price {
         font-size: $font-size-13;
@@ -1148,8 +1149,13 @@ img {
 
     .cpa-program-why__section-title {
         font-size: 24px;
+        margin-bottom: 10px;
     }
-   
+
+    .cpa-program-why__section-header .btn-base {
+        display: none;
+    }
+
     .cpa-program-benefits__body-text,
     .cpa-program-why__section-text {
         font-size: $font-size-13;
@@ -1169,6 +1175,7 @@ img {
     }
 
     .cpa-program-plan-text p,
+    .cpa-program-profit__description,
     .cpa-program-plan__item-text,
     .cpa-program-benefits__body-text,
     .cpa-program-why__section-text,
@@ -1176,7 +1183,9 @@ img {
         line-height: 21px;
     }
 
-    .cpa-program-plan-text p {margin-bottom: 17px;}
+    .cpa-program-plan-text p {
+        margin-bottom: 17px;
+    }
 
     .cpa-program-header.benefits {
         margin-top: unset;
@@ -1190,7 +1199,7 @@ img {
         padding-bottom: 0;
     }
 
-    .cpa-program-benefits-bg{
+    .cpa-program-benefits-bg {
         width: 100%;
         border-radius: unset;
     }
@@ -1212,9 +1221,9 @@ img {
         grid-template-rows: 180px 390px;
     }
 
-    
-    .cpa-program-plan__list ,
-    .cpa-program-plan-item-body-wrapper:first-child{
+
+    .cpa-program-plan__list,
+    .cpa-program-plan-item-body-wrapper:first-child {
         margin-bottom: 30px;
     }
 
@@ -1222,29 +1231,29 @@ img {
         margin-left: unset;
         text-align: center;
     }
- 
+
     .cpa-program-why__img-container img {
         width: 100%;
         height: 100%;
         object-fit: contain;
     }
 
-    .cpa-program-why__img-container  {
+    .cpa-program-why__img-container {
         width: 100%;
         height: 346px;
     }
 
     .profit-icons {
         left: 40px;
-        top:20px;
- 
+        top: 20px;
+
     }
 
     .cpa-program-profit-img-container {
         position: relative;
         width: 100%;
         height: 100%;
-     
+
     }
 
     .img-profit,
@@ -1259,26 +1268,42 @@ img {
         width: 80%;
     }
 
-   .cpa-program-header.profit {
-     margin-top: 30px;
-   }
+    .cpa-program-header.profit {
+        margin-top: 30px;
+    }
+
+
+    .owl-carousel-price.owl-theme .owl-dots .owl-dot.active span{
+        width: 80px;
+        height: 4px;
+        border-radius: 5px;
+        background-color: var(--blue-500);
+    }
+
+    .cpa-program-why__list {
+        margin-top: unset;
+    }
+
+ 
+
 }
 
 @media (max-width:375px) {
     .cpa-program-why__img-container {
         height: 256px;
     }
-    
+
 }
 
 @media (max-width:320px) {
     .cpa-program-header.hero .cpa-program-header__title {
         font-size: 28px;
     }
+
     .cpa-program-advantages__list-container {
         padding: 30px;
     }
 
-   
-    
+
+
 }
