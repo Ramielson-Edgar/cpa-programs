@@ -8,6 +8,10 @@
     <title>cap program</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/splide.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -17,7 +21,36 @@
         <section class="cpa-program-hero overflow-hidden circles light-blue section-padding">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6 order-xl-1 order-lg-1 order-md-1">
+                        <div class="cpa-program-hero__img-container">
+                            <picture>
+                                <source media="(max-width:575.98px)" srcset="./img/hero-icons-500.png">
+                                <source media="(max-width:767.98px)" srcset="./img/hero-icons.png">
+                                <source media="(max-width:991.98px)" srcset="./img/hero-icons-900.png">
+                                <img class="img-fluid hero-img-1" src="./img/hero-icons.png" alt="3d social media icons"
+                                    width="621" height="363">
+                            </picture>
+
+                            <picture>
+                                <source media="(max-width:575.98px)" srcset="./img/hero-feedback-500.png">
+                                <source media="(max-width:767.98px)" srcset="./img/hero-feedback.png">
+                                <source media="(max-width:991.98px)" srcset="./img/hero-feedback-900.png">
+                                <img class="img-fluid hero-img-2" src="./img/hero-feedback.png"
+                                    alt="illustration, level grow" width="491" height="264">
+                            </picture>
+
+                            <picture>
+                                <source media="(max-width:575.98px)" srcset="./img/hero-500.png">
+                                <source media="(max-width:767.98px)" srcset="./img/hero.png">
+                                <source media="(max-width:991.98px)" srcset="./img/hero-900.png">
+                                <img class="img-fluid" src="./img/hero.png" alt="illustration dashboard" width="599"
+                                    height="502">
+                            </picture>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 order-xl-0 order-lg-0 order-md-0">
                         <header class="cpa-program-header hero">
                             <span class="cpa-program-hero-sub">cpa program</span>
                             <h1 class="cpa-program-header__title">
@@ -32,21 +65,8 @@
                             </a>
                         </header>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="cpa-program-hero__img-container">
 
-                            <img class="img-fluid hero-img-1" src="./img/hero-icons.png" alt="3d social media icons"
-                                width="621" height="363">
-                            <img class="img-fluid hero-img-2" src="./img/hero-feedback.png"
-                                alt="illustration, level grow" width="491" height="264">
 
-                            <picture>
-                                <img class="img-fluid" src="./img/hero.png" alt="illustration dashboard" width="599"
-                                    height="502">
-                            </picture>
-
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
@@ -93,7 +113,7 @@
                                 <p class="cpa-program-advantages__body-text">up to payment for CPA</p>
                             </div>
                         </li>
-                        <li class="cpa-program-advantages__item">
+                        <li class="cpa-program-advantages__item d-xl-block d-lg-block d-md-block d-sm-block d-none">
                             <div class="cpa-program-advantages__img-container">
                                 <svg width="40" height="27">
                                     <use href="./icons/sprite.svg#icon-users"></use>
@@ -113,12 +133,24 @@
         <section class="cpa-program-profit section-padding">
             <div class="container">
                 <div class="row align-items-center mb-130">
-                    <div class="col-lg-6">
-                        <img class="img-fluid profit-icons" src="./img/profit-icons.png" alt="" width="313px" height="180px">
-                        <img class="img-fluid" src="./img/profit.png" alt="" width="371" height="243">
+                    <div class="col-lg-6 col-md-6 col-sm-10 m-sm-auto">
+                        <div class="cpa-program-profit-img-container">
+                            <picture>
+                                <source media="(max-width:575.98x)" srcset="./img/profit-icons-500.png">
+                                <source media="(max-width:991px)" srcset="./img/profit-icons-900.png">
+                                <img class="img-fluid profit-icons" src="./img/profit-icons.png" alt="" width="313px"
+                                    height="180px">
+                            </picture>
+
+                            <picture>
+                                <source media="(max-width:575.98px)" srcset="./img/profit-500.png">
+                                <img class="img-fluid img-profit" src="./img/profit.png" alt="" width="371"
+                                    height="243">
+                            </picture>
+                        </div>
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6 col-sm-10 m-sm-auto">
                         <header class="cpa-program-header profit">
                             <h2 class="cpa-program-header__title">Who Can <span class="text-gradient">Profit?</span>
                             </h2>
@@ -130,8 +162,8 @@
 
                 </div>
                 <div class="row">
-                    <div class="col-lg-5">
-                        <header class="cpa-program-profit__header">
+                    <div class="col-lg-5 col-md-8 col-sm-10 m-xl-0 md-lg-0 m-md-0 m-auto">
+                        <header class="cpa-program-profit__header circle right mb-xl-0 mb-lg-0 mb-5">
                             <div class="cpa-program-profit__img-container green">
                                 <svg width="21" height="15">
                                     <use href="./icons/sprite.svg#icon-checkmark"></use>
@@ -144,8 +176,9 @@
                             <a class="btn-base btn-base-lg btn-blue-white" href="#">Get Started</a>
                         </header>
                     </div>
-                    <div class="col-lg-5 offset-xl-1">
-                        <header class="cpa-program-profit__header">
+                    <div
+                        class="col-lg-5 col-md-8 col-sm-10 m-xl-0 md-lg-0 m-md-0 m-auto offset-xl-1 offset-lg-1  offset-md-4">
+                        <header class="cpa-program-profit__header circle left">
                             <div class="cpa-program-profit__img-container blue">
                                 <svg width="22" height="15">
                                     <use href="./icons/sprite.svg#icon-users"></use>
@@ -165,24 +198,26 @@
 
         </section>
 
-        <section class="cpa-program-plan section-padding">
+        <section class="cpa-program-plan circles overflow-hidden section-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 m-auto">
-                        <header class="cpa-program-header text-center">
+                        <header class="cpa-program-header plan text-center">
                             <h2 class="cpa-program-header__title">maximize <span class="text-gradient">your
                                     potential</span></h2>
                             <p class="cpa-program-header__description">Build a successful campaign using converting
                                 promo tools, intuitive tracking systems, on the ongoing support on our professional CPA
                                 managers. </p>
                         </header>
+
+                        <h2 class="cpa-program-plan-title">plans</h2>
                     </div>
                 </div>
             </div>
 
 
             <div class="container">
-                <ul class="cpa-program-plan__list mb-5">
+                <ul class="cpa-program-plan__list d-xl-flex d-lg-flex d-none mb-5">
                     <li class="cpa-program-plan__item standard">
                         <div class="cpa-program-plan__item-header">
                             <h3 class="cpa-program-plan__item-title">CPA Payment Plan</h3>
@@ -247,12 +282,83 @@
                 </ul>
 
 
+                <ul
+                    class="cpa-program-plan__list d-xl-none d-lg-none owl-carousel-price owl-carousel owl-theme mb-xl-5 mb-lg-5 mb-md-5 mb-sm-5">
+                    <li class="cpa-program-plan__item standard">
+                        <div class="cpa-program-plan__item-header">
+                            <h3 class="cpa-program-plan__item-title">CPA Payment Plan</h3>
+                            <p class="cpa-program-plan__item-text">The Clients minimum deposit of CPA is $100 not
+                                less</p>
+                        </div>
+                        <div class="cpa-program-plan__item-body standard">
+                            <div class="cpa-program-plan__item-body-row">
+                                <p class="cpa-program-plan__item-body-text deposit">100 Deposit</p>
+                                <h2 class="cpa-program-plan__item-body-price">$50 CPA</h2>
+                            </div>
+                            <div class="cpa-program-plan__item-body-row">
+                                <p class="cpa-program-plan__item-body-text deposit">500 Deposit</p>
+                                <h2 class="cpa-program-plan__item-body-price">$50 CPA</h2>
+                            </div>
+                            <div class="cpa-program-plan__item-body-row">
+                                <p class="cpa-program-plan__item-body-text deposit">10000 Deposit</p>
+                                <h2 class="cpa-program-plan__item-body-price">$50 CPA</h2>
+                            </div>
+
+                            <span class="cpa-program-plan-item-body-note">We will add a small example of some of the
+                                CPA
+                                payments </span>
+                        </div>
+                    </li>
+
+                    <li class="cpa-program-plan__item premium">
+                        <div class="cpa-program-plan__item-header">
+                            <h3 class="cpa-program-plan__item-title">An Extra Bonus On To Your CPA Payment</h3>
+                            <p class="cpa-program-plan__item-text">the lots sizes that will be agreed on and the
+                                monthly bonus is only applicable to affiliates</p>
+                        </div>
+                        <div class="cpa-program-plan__item-body premium">
+                            <div class="cpa-program-plan-item-body-wrapper">
+                                <h3 class="cpa-program-plan__item-body-title">level 1</h3>
+                                <div class="cpa-program-plan__item-body-row">
+                                    <p class="cpa-program-plan__item-body-text shield">Qualified Client</p>
+                                    <h2 class="cpa-program-plan__item-body-price">30-49
+
+                                    </h2>
+                                </div>
+
+                                <div class="cpa-program-plan__item-body-row">
+                                    <p class="cpa-program-plan__item-body-text payment">Bonus payment</p>
+                                    <h2 class="cpa-program-plan__item-body-price">$3000 </h2>
+                                </div>
+                            </div>
+
+                            <div class="cpa-program-plan-item-body-wrapper">
+                                <h3 class="cpa-program-plan__item-body-title">level 2</h3>
+                                <div class="cpa-program-plan__item-body-row">
+                                    <p class="cpa-program-plan__item-body-text shield">Qualified Client</p>
+                                    <h2 class="cpa-program-plan__item-body-price">50+
+                                    </h2>
+                                </div>
+
+                                <div class="cpa-program-plan__item-body-row">
+                                    <p class="cpa-program-plan__item-body-text payment">Bonus payment</p>
+                                    <h2 class="cpa-program-plan__item-body-price">$10,000 </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
                 <div class="row">
                     <div class="col-lg-8 m-auto text-center">
-                        <p class="mb-xl-4">After applying for CPA your manager will contact you from there you will set
-                            a plan depending on the information that you will offer. And we are always open to discuss.
-                            Signup get the maximum potential from your traffic.</p>
-                        <a class="btn-base btn-base-lg btn-green-red" href="#">get started</a>
+                        <div class="cpa-program-plan-text">
+                            <p class="mb-xl-4">After applying for CPA your manager will contact you from there you will
+                                set
+                                a plan depending on the information that you will offer. And we are always open to
+                                discuss.
+                                Signup get the maximum potential from your traffic.</p>
+                            <a class="btn-base btn-base-lg btn-green-red" href="#">get started</a>
+                        </div>
                     </div>
                 </div>
 
@@ -263,23 +369,47 @@
 
         </section>
 
-        <section class="cpa-program-platforms section-padding container">
-            <div class="cpa-program-platforms__wrapper">
-                <h2 class="cpa-program-platforms__title">Integrated with 70+ Ad Platforms</h2>
-                <ul class="cpa-program-platforms__list">
-                    <li class="cpa-program-platforms__item">
-                        <img class="img-fluid" src="./img/google.png" alt="google" width="189" height="60">
-                    </li>
-                    <li class="cpa-program-platforms__item">
-                        <img class="img-fluid" src="./img/facebook.png" alt="facebook" width="124" height="24">
-                    </li>
-                    <li class="cpa-program-platforms__item">
-                        <img class="img-fluid" src="./img/tiktok.png" alt="tiktok" width="94" height="28">
-                    </li>
-                    <li class="cpa-program-platforms__item">
-                        <img class="img-fluid" src="./img/yahoo.png" alt="yahoo" width="98" height="27">
-                    </li>
-                </ul>
+        <section class="cpa-program-platforms section-padding">
+            <div class="container">
+                <div class="cpa-program-platforms__wrapper">
+                    <h2 class="cpa-program-platforms__title">Integrated with 70+ Ad Platforms</h2>
+                    <ul class="cpa-program-platforms__list d-xl-flex d-lg-flex d-none">
+                        <li class="cpa-program-platforms__item">
+                            <img class="img-fluid" src="./img/google.png" alt="google" width="189" height="60">
+                        </li>
+                        <li class="cpa-program-platforms__item">
+                            <img class="img-fluid" src="./img/facebook.png" alt="facebook" width="124" height="24">
+                        </li>
+                        <li class="cpa-program-platforms__item">
+                            <img class="img-fluid" src="./img/tiktok.png" alt="tiktok" width="94" height="28">
+                        </li>
+                        <li class="cpa-program-platforms__item">
+                            <img class="img-fluid" src="./img/yahoo.png" alt="yahoo" width="98" height="27">
+                        </li>
+                    </ul>
+
+                    <div class="splide d-xl-none d-lg-none" aria-label="Splide Basic HTML Example">
+                        <div class="splide__track">
+                            <ul class="cpa-program-platforms__list splide__list">
+                                <li class="cpa-program-platforms__item splide__slide">
+                                    <img class="img-fluid" src="./img/google.png" alt="google" width="189" height="60">
+                                </li>
+                                <li class="cpa-program-platforms__item splide__slide">
+                                    <img class="img-fluid" src="./img/facebook.png" alt="facebook" width="124"
+                                        height="24">
+                                </li>
+                                <li class="cpa-program-platforms__item splide__slide">
+                                    <img class="img-fluid" src="./img/tiktok.png" alt="tiktok" width="94" height="28">
+                                </li>
+                                <li class="cpa-program-platforms__item splide__slide">
+                                    <img class="img-fluid" src="./img/yahoo.png" alt="yahoo" width="98" height="27">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
             </div>
         </section>
 
@@ -294,96 +424,109 @@
                 </div>
             </div>
 
-            <div class="container">
+            <div class="inner">
 
-                <div class="row wrapper">
-                    <div class="col-lg-6">
-                        <ul class="cpa-program-why__list">
-                            <li class="cpa-program-why__item">
-                                <section class="cpa-program-why__section award ">
-                                    <header class="cpa-program-why__section-header panel-text">
-                                        <span class="cpa-program-why__section-sub">awards winning broker</span>
-                                        <h3 class="cpa-program-why__section-title">Awards</h3>
-                                        <p class="cpa-program-why__section-text">We are a trusted, globally brokerage
-                                            firm with over 40 prestigious online trading awards to date and an
-                                            established partners network from witch you can benefit immediately upon
-                                            joining.</p>
-                                        <a class="btn-base btn-base-lg btn-light-blue" href="#">get started</a>
-                                    </header>
-                                </section>
-                            </li>
-                            <li class="cpa-program-why__item">
-                                <section class="cpa-program-why__section onboarding ">
-                                    <header class="cpa-program-why__section-header panel-text">
-                                        <span class="cpa-program-why__section-sub">KYC</span>
-                                        <h3 class="cpa-program-why__section-title">Onboarding</h3>
-                                        <p class="cpa-program-why__section-text">Our onboarding process is quick and
-                                            straightforward. You can register for an account as fast as you can by
-                                            filling in a short registration form, it usually takes just seconds.</p>
-                                        <a class="btn-base btn-base-lg btn-light-blue" href="#">get started</a>
-                                    </header>
-                                </section>
-                            </li>
-                            <li class="cpa-program-why__item">
-                                <section class="cpa-program-why__section suppot ">
-                                    <header class="cpa-program-why__section-header panel-text">
-                                        <span class="cpa-program-why__section-sub">24/5</span>
-                                        <h3 class="cpa-program-why__section-title">Support</h3>
-                                        <p class="cpa-program-why__section-text">You can trust us to be always reliable
-                                            when it comes to delivering you commissions. You will instantly receive your
-                                            revenue as it is being generated. You will always have expert professional
-                                            support by your side, available in many languages 24/5 both for you and your
-                                            referred clients.</p>
-                                        <a class="btn-base btn-base-lg btn-light-blue" href="#">get started</a>
-                                    </header>
-                                </section>
-                            </li>
-                            <li class="cpa-program-why__item">
-                                <section class="cpa-program-why__section portal ">
-                                    <header class="cpa-program-why__section-header panel-text">
-                                        <span class="cpa-program-why__section-sub">track your performance now</span>
-                                        <h3 class="cpa-program-why__section-title">Portal</h3>
-                                        <p class="cpa-program-why__section-text">Once you register you will be taken to
-                                            our dedicated partners portal from where you can monitor, live track and
-                                            receive reports on everything related you your referrals in full
-                                            transparency. We optimised our portal to be as user-friendly as possible so
-                                            you can handle everything quickly, efficiently and without any hassles.</p>
-                                        <a class="btn-base btn-base-lg btn-light-blue" href="#">get started</a>
-                                    </header>
-                                </section>
-                            </li>
-                            <li class="cpa-program-why__item">
-                                <section class="cpa-program-why__section more ">
-                                    <header class="cpa-program-why__section-header panel-text">
-                                        <span class="cpa-program-why__section-sub">bonus and promotions</span>
-                                        <h3 class="cpa-program-why__section-title">And Much More!</h3>
-                                        <p class="cpa-program-why__section-text">We designed our ib programs to offer
-                                            maximum potential for solid revenue generation that can in turn enable you
-                                            to offer the highest rebates possible, giving you a competitive advantages
-                                            over you competition and making you offering almost irresistible.</p>
-                                        <a class="btn-base btn-base-lg btn-light-blue" href="#">get started</a>
-                                    </header>
-                                </section>
-                            </li>
-                        </ul>
+                <div class="container list-container">
+                    <div class="row wrapper">
+                        <div class="col-lg-6 col-md-6 m-xl-0 m-lg-0 m-md-0 m-ms-auto order-xl-1 oder-lg-1 order-md-1">
+                            <div class="cpa-program-why__img-container">
 
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="cpa-program-why__img-container">
+                                <img class="img-fluid panel img-1" src="./img/award.png" alt="" width="533"
+                                    height="466">
+                                <img class="img-fluid panel img-2" src="./img/onboarding.png" alt="" width="533"
+                                    height="466">
+                                <img class="img-fluid panel img-3" src="./img/support.png" alt="" width="533"
+                                    height="466">
+                                <img class="img-fluid panel img-4" src="./img/portal.png" alt="" width="533"
+                                    height="466">
+                                <img class="img-fluid panel img-5" src="./img/more.png" alt="" width="533" height="466">
 
-                            <img class="img-fluid panel img-1" src="./img/award.png" alt="" width="533" height="466">
-                            <img class="img-fluid panel img-2" src="./img/onboarding.png" alt="" width="533"
-                                height="466">
-                            <img class="img-fluid panel img-3" src="./img/support.png" alt="" width="533" height="466">
-                            <img class="img-fluid panel img-4" src="./img/portal.png" alt="" width="533" height="466">
-                            <img class="img-fluid panel img-5" src="./img/more.png" alt="" width="533" height="466">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 order-xl-0 oder-lg-0 order-md-0">
+                            <ul class="cpa-program-why__list ">
+                                <li class="cpa-program-why__item">
+                                    <section class="cpa-program-why__section award">
+                                        <header class="cpa-program-why__section-header panel-text">
+                                            <span class="cpa-program-why__section-sub">awards winning broker</span>
+                                            <h3 class="cpa-program-why__section-title">Awards</h3>
+                                            <p class="cpa-program-why__section-text">We are a trusted, globally
+                                                brokerage
+                                                firm with over 40 prestigious online trading awards to date and an
+                                                established partners network from witch you can benefit immediately upon
+                                                joining.</p>
+                                            <a class="btn-base btn-base-lg btn-light-blue" href="#">get started</a>
+                                        </header>
+                                    </section>
+                                </li>
+                                <li class="cpa-program-why__item">
+                                    <section class="cpa-program-why__section onboarding ">
+                                        <header class="cpa-program-why__section-header panel-text">
+                                            <span class="cpa-program-why__section-sub">KYC</span>
+                                            <h3 class="cpa-program-why__section-title">Onboarding</h3>
+                                            <p class="cpa-program-why__section-text">Our onboarding process is quick and
+                                                straightforward. You can register for an account as fast as you can by
+                                                filling in a short registration form, it usually takes just seconds.</p>
+                                            <a class="btn-base btn-base-lg btn-light-blue" href="#">get started</a>
+                                        </header>
+                                    </section>
+                                </li>
+                                <li class="cpa-program-why__item">
+                                    <section class="cpa-program-why__section suppot ">
+                                        <header class="cpa-program-why__section-header panel-text">
+                                            <span class="cpa-program-why__section-sub">24/5</span>
+                                            <h3 class="cpa-program-why__section-title">Support</h3>
+                                            <p class="cpa-program-why__section-text">You can trust us to be always
+                                                reliable
+                                                when it comes to delivering you commissions. You will instantly receive
+                                                your
+                                                revenue as it is being generated. You will always have expert
+                                                professional
+                                                support by your side, available in many languages 24/5 both for you and
+                                                your
+                                                referred clients.</p>
+                                            <a class="btn-base btn-base-lg btn-light-blue" href="#">get started</a>
+                                        </header>
+                                    </section>
+                                </li>
+                                <li class="cpa-program-why__item">
+                                    <section class="cpa-program-why__section portal ">
+                                        <header class="cpa-program-why__section-header panel-text">
+                                            <span class="cpa-program-why__section-sub">track your performance now</span>
+                                            <h3 class="cpa-program-why__section-title">Portal</h3>
+                                            <p class="cpa-program-why__section-text">Once you register you will be taken
+                                                to
+                                                our dedicated partners portal from where you can monitor, live track and
+                                                receive reports on everything related you your referrals in full
+                                                transparency. We optimised our portal to be as user-friendly as possible
+                                                so
+                                                you can handle everything quickly, efficiently and without any hassles.
+                                            </p>
+                                            <a class="btn-base btn-base-lg btn-light-blue" href="#">get started</a>
+                                        </header>
+                                    </section>
+                                </li>
+                                <li class="cpa-program-why__item">
+                                    <section class="cpa-program-why__section more ">
+                                        <header class="cpa-program-why__section-header panel-text">
+                                            <span class="cpa-program-why__section-sub">bonus and promotions</span>
+                                            <h3 class="cpa-program-why__section-title">And Much More!</h3>
+                                            <p class="cpa-program-why__section-text">We designed our ib programs to
+                                                offer
+                                                maximum potential for solid revenue generation that can in turn enable
+                                                you
+                                                to offer the highest rebates possible, giving you a competitive
+                                                advantages
+                                                over you competition and making you offering almost irresistible.</p>
+                                            <a class="btn-base btn-base-lg btn-light-blue" href="#">get started</a>
+                                        </header>
+                                    </section>
+                                </li>
+                            </ul>
 
                         </div>
                     </div>
                 </div>
-
-
-
 
             </div>
         </section>
@@ -391,7 +534,18 @@
         <section class="cpa-program-material overflow-hidden circles">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-6 order-xl-1">
+
+                    <div class="col-lg-6  ">
+
+                        <picture>
+                            <img class="img-fluid cpa-program-material-img" src="./img/material.png" alt="" width="601"
+                                height="669">
+                        </picture>
+
+
+                    </div>
+
+                    <div class="col-lg-6 col-md-10 m-md-auto">
                         <header class="cpa-program-header">
                             <h2 class="cpa-program-header__title">marketing <span class="text-gradient">materials</span>
                             </h2>
@@ -407,16 +561,6 @@
                             <a class="btn-base btn-base-lg btn-green-red" href="#">Get Started</a>
                         </header>
                     </div>
-                    <div class="col-lg-6 order-xl-0">
-                        <div class="cpa-program-material__img-container">
-
-                            <picture>
-                                <img class="img-fluid cpa-program-material-img" src="./img/material.png" alt=""
-                                    width="601" height="669">
-                            </picture>
-                        </div>
-
-                    </div>
                 </div>
             </div>
 
@@ -427,8 +571,8 @@
         <section class="cpa-program-benefits overflow-hidden section-padding">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-5">
-                        <header class="cpa-program-header">
+                    <div class="col-xl-5 col-lg-6">
+                        <header class="cpa-program-header benefits">
                             <h2 class="cpa-program-header__title">trading benefits
                                 <p class="text-gradient">for your adrofx referrals</p>
                             </h2>
@@ -519,7 +663,86 @@
                     </li>
                 </ul>
 
-                <div class="row mt-4">
+                <ul
+                    class="cpa-program-benefits__list d-xl-none d-lg-none d-md-none owl-carousel-benefits owl-carousel owl-theme">
+                    <li class="cpa-program-benefits__item">
+                        <div class="cpa-program-benefits__img-container">
+                            <svg width="59" height="54">
+                                <use href="./icons/sprite.svg#icon-loud-speaker"></use>
+                            </svg>
+                        </div>
+                        <div class="cpa-program-benefits__body">
+                            <h4 class="cpa-program-benefits__body-title">Promotions</h4>
+                            <p class="cpa-program-benefits__body-text">live trading competitions with exceptional trips
+                                and substantial cash prizes*.</p>
+                        </div>
+                    </li>
+                    <li class="cpa-program-benefits__item">
+                        <div class="cpa-program-benefits__img-container">
+                            <svg width="55" height="54">
+                                <use href="./icons/sprite.svg#icon-search"></use>
+                            </svg>
+                        </div>
+                        <div class="cpa-program-benefits__body">
+                            <h4 class="cpa-program-benefits__body-title">Market Products</h4>
+                            <p class="cpa-program-benefits__body-text">A wide product range of 300+ instrument from 6
+                                different asset classes for the rich diversification of your investment portfolio. A
+                                total of 6 account types from 2 categories namely live accounts and STP/ECN accounts.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="cpa-program-benefits__item">
+                        <div class="cpa-program-benefits__img-container">
+                            <svg width="64" height="54">
+                                <use href="./icons/sprite.svg#icon-platform"></use>
+                            </svg>
+                        </div>
+                        <div class="cpa-program-benefits__body">
+                            <h4 class="cpa-program-benefits__body-title">Trading Platforms</h4>
+                            <p class="cpa-program-benefits__body-text">Industry leading trading platforms MT4, MT4
+                                Webtrader and Allpips platform for professional client upon request. Proprietary for
+                                multi account and portfolio managers.</p>
+                        </div>
+                    </li>
+                    <li class="cpa-program-benefits__item">
+                        <div class="cpa-program-benefits__img-container">
+                            <svg width="49" height="54">
+                                <use href="./icons/sprite.svg#icon-security"></use>
+                            </svg>
+                        </div>
+                        <div class="cpa-program-benefits__body">
+                            <h4 class="cpa-program-benefits__body-title">security</h4>
+                            <p class="cpa-program-benefits__body-text">Generous and no deposit bonuses for hosting
+                                trading momentum*.</p>
+                        </div>
+                    </li>
+                    <li class="cpa-program-benefits__item">
+                        <div class="cpa-program-benefits__img-container">
+                            <svg width="76" height="54">
+                                <use href="./icons/sprite.svg#icon-cards"></use>
+                            </svg>
+                        </div>
+                        <div class="cpa-program-benefits__body">
+                            <h4 class="cpa-program-benefits__body-title">Exclusive bonuses</h4>
+                            <p class="cpa-program-benefits__body-text">Client funds are always kept with internationally
+                                reputable banks.</p>
+                        </div>
+                    </li>
+                    <li class="cpa-program-benefits__item">
+                        <div class="cpa-program-benefits__img-container">
+                            <svg width="66" height="54">
+                                <use href="./icons/sprite.svg#icon-stack"></use>
+                            </svg>
+                        </div>
+                        <div class="cpa-program-benefits__body">
+                            <h4 class="cpa-program-benefits__body-title">Transparency</h4>
+                            <p class="cpa-program-benefits__body-text">super - flexible leverage up to 1:100 allow space
+                                for almost any type of trading strategy and appetite for risk.</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="row mt-5">
                     <div class="col-lg-4 text-center m-auto">
                         <a class="btn-base btn-base-lg btn-green-red" href="#">get started</a>
                     </div>
@@ -538,9 +761,75 @@
         integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
         crossorigin="anonymous"></script>
 
+
+    <script src="js/splide.js"></script>
+    <script src="js/auto-scroll.js"></script>
+
+    <script src="js/owl.carousel.min.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
     <script src="js/main.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // plans carousel
+            $('.owl-carousel-price').owlCarousel({
+                loop: false,
+                margin: 30,
+                stagePadding: 50,
+                nav: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                        stagePadding: 0,
+                    },
+                    600: {
+                        items: 1
+                    },
+
+                }
+            })
+
+
+            $('.owl-carousel-benefits').owlCarousel({
+                loop: false,
+                margin: 20,
+                stagePadding: 50,
+                nav: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                        stagePadding: 0,
+                    },
+                    600: {
+                        items: 1
+                    },
+
+                }
+            })
+
+
+            //splide//
+
+            const splide = new Splide('.splide', {
+                type: 'loop',
+                drag: 'free',
+                focus: 'center',
+                perPage: 3,
+                pagination: false,
+                arrows: false,
+                dots: false,
+                autoScroll: {
+                    speed: 1,
+                },
+            });
+            splide.mount(window.splide.Extensions);
+
+
+        })
+
+    </script>
 </body>
 
 </html>
