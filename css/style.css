@@ -688,6 +688,8 @@ img {
   background-color: var(--blue-500);
 }
 
+.owl-carousel-why.owl-theme .owl-dots .owl-dot.active span,
+.owl-carousel-why.owl-theme .owl-dots .owl-dot:hover span,
 .owl-carousel-benefits.owl-theme .owl-dots .owl-dot.active span,
 .owl-carousel-benefits.owl-theme .owl-dots .owl-dot:hover span {
   background-color: var(--blue-500);
@@ -851,42 +853,13 @@ img {
     height: 180px;
     right: -50px;
   }
-  .cpa-program-why__img-container {
-    width: 393px;
-    height: 346px;
-    margin-inline: auto;
-    position: relative;
-    top: unset;
-  }
-  .cpa-program-why__item {
-    width: 100vw;
-    height: 50vh;
-    max-width: 500px;
-  }
-  .cpa-program-why__list {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    -moz-column-gap: 50px;
-         column-gap: 50px;
-    width: 100vw;
-    margin-top: 30px;
-  }
-  .list-container {
-    display: flex;
-    flex-direction: column;
-  }
   .cpa-program-why__item:last-child .cpa-program-why__section,
 .cpa-program-why__section {
     margin-top: unset;
-    height: 40vh;
+    height: 100%;
   }
   .cpa-program-why {
-    padding: 70px 0 0 0;
-  }
-  .inner {
-    overflow-x: hidden;
-    position: relative;
-    padding-bottom: 70px;
+    padding: 70px 0;
   }
   .cpa-program-benefits__list {
     grid-template-columns: repeat(2, 1fr);
@@ -906,7 +879,8 @@ img {
   }
 }
 @media (max-width: 575.98px) {
-  .section-padding {
+  .cpa-program-why,
+.section-padding {
     padding: 50px 0;
   }
   .btn-base-lg,
@@ -955,22 +929,13 @@ img {
     font-size: 24px;
     margin-bottom: 10px;
   }
-  .cpa-program-why__section-header .btn-base {
-    display: none;
+  .cpa-program-why__list {
+    -moz-column-gap: 10px;
+         column-gap: 10px;
   }
   .cpa-program-benefits__body-text,
 .cpa-program-why__section-text {
     font-size: 0.813rem;
-  }
-  .cpa-program-why__item {
-    max-width: 370px;
-  }
-  .cpa-program-why__section {
-    padding: 0 30px 0 0;
-  }
-  .cpa-program-why__list {
-    -moz-column-gap: 10px;
-         column-gap: 10px;
   }
   .cpa-program-plan-text p,
 .cpa-program-profit__description,
@@ -987,7 +952,7 @@ img {
     margin-top: unset;
   }
   .cpa-program-why__item {
-    height: 43vh;
+    height: 100%;
   }
   .inner {
     padding-bottom: 0;
