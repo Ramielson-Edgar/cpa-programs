@@ -1035,6 +1035,13 @@ img {
   .splide__slide img {
     width: 90%;
   }
+  .splide__pagination li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .splide__pagination__page {
+    width: 12px;
+    height: 12px;
+  }
 }
 @media (max-width: 375px) {
   .cpa-program-why__img-container {
