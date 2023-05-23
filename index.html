@@ -532,10 +532,8 @@
             </div>
  
             <div class="container d-xl-none d-lg-none d-md-none d-sm-block">
-                <section id="splide-second"class="splide  " aria-label="Splide Basic HTML Example">
-                    <div class="splide__track">
-                        <ul class="splide__list cpa-program-why__list">
-                            <li class="cpa-program-why__item splide__slide">
+                        <ul class="cpa-program-why__list owl-carousel-why owl-carousel owl-theme">
+                            <li class="cpa-program-why__item">
                                 <div class="cpa-program-why__item-img-container">
                                     <img class="img-fluid" src="./img/award.png" alt="" width="533" height="466">
                                 </div>
@@ -552,7 +550,7 @@
                                     </header>
                                 </section>
                             </li>
-                            <li class="cpa-program-why__item splide__slide">
+                            <li class="cpa-program-why__item">
                                 <div class="cpa-program-why__item-img-container">
 
                                     <img class="img-fluid" src="./img/onboarding.png" alt="" width="533" height="466">
@@ -568,7 +566,7 @@
                                     </header>
                                 </section>
                             </li>
-                            <li class="cpa-program-why__item splide__slide">
+                            <li class="cpa-program-why__item">
                                 <div class="cpa-program-why__item-img-container">
 
 
@@ -591,7 +589,7 @@
                                     </header>
                                 </section>
                             </li>
-                            <li class="cpa-program-why__item splide__slide">
+                            <li class="cpa-program-why__item">
                                 <div class="cpa-program-why__item-img-container">
 
 
@@ -614,7 +612,7 @@
                                     </header>
                                 </section>
                             </li>
-                            <li class="cpa-program-why__item splide__slide">
+                            <li class="cpa-program-why__item">
                                 <div class="cpa-program-why__item-img-container">
 
 
@@ -637,8 +635,8 @@
                                 </section>
                             </li>
                         </ul>
-                    </div>
-                </section>
+                  
+               
             </div>
 
 
@@ -925,38 +923,24 @@
             })
 
             // plans benefits//
-            // $('.owl-carousel-why').owlCarousel({
-            //     loop: false,
-            //     margin: 10,
-            //     nav: false,
-            //     responsive: {
-            //         0: {
-            //             items: 1,
-            //             margin: 20,
+            $('.owl-carousel-why').owlCarousel({
+                loop: false,
+                margin: 10,
+                nav: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                        margin: 20,
 
 
-            //         },
-            //         600: {
-            //             items: 1
-            //         },
+                    },
+                    600: {
+                        items: 1
+                    },
 
-            //     }
-            // })
-
-            new Splide('#splide-second', {
-                direction: 'ttb',
-                pagination: "tlb",
-                height: '50rem',
-                arrows:false,
-                wheels:false,
-                breakpoints: {
-                    575:{
-                        height: '40rem',  
-                    }
                 }
-              
-            }).mount();
-
+            })
+ 
 
             //splide//
 

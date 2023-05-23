@@ -1032,15 +1032,16 @@ img {
   .cpa-program-why__list {
     margin-top: unset;
   }
-  .splide__slide img {
+  .owl-carousel-why.owl-theme .owl-item img {
     width: 90%;
+    margin-inline: auto;
   }
-  .splide__pagination li:not(:last-child) {
-    margin-bottom: 10px;
-  }
-  .splide__pagination__page {
-    width: 12px;
-    height: 12px;
+  .owl-carousel-why.owl-theme .owl-dots {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
   }
 }
 @media (max-width: 375px) {
