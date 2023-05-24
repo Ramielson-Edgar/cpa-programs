@@ -639,7 +639,9 @@
                         </ul>
                     </div>
 
+                    <ul class="splide__pagination"></ul>
                 </div>
+
 
             </div>
 
@@ -960,6 +962,15 @@
                 autoScroll: {
                     speed: 1,
                 },
+                breakpoints: {
+
+                    575: {
+                        perPage: 2,
+                    },
+                    320: {
+                        perPage: 1,
+                    },
+                }
             }).mount(window.splide.Extensions);
 
 
@@ -969,14 +980,20 @@
                 height: '42rem',
                 noDrag: true,
                 drag: false,
-                arrows: true,
-                autoplay:true,
+                arrows: false,
+                autoplay: true,
+                
+            
+
                 breakpoints: {
                     767: {
                         perPage: 1,
                     },
                     575: {
                         height: '40rem'
+                    },
+                    320: {
+                        height: '35rem'
                     },
                 }
 

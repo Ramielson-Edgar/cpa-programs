@@ -1062,25 +1062,20 @@ img {
         bottom: 80px;
     }
 
-    .splide__arrows--ttb .splide__arrow--next {
-        bottom: 5.5rem;
-    }
-
-    .splide__arrows--ttb .splide__arrow--prev {
-        top: 1.5rem;
-    }
 
 
-    .splide__slide img {
-        width: 90%;
+    .splide__pagination__page {
+        width: 12px;
+        height: 12px;
     }
-    
-    .splide__pagination__page {width: 12px;height: 12px;}
 
     .splide__pagination li:not(:last-child) {
         margin-bottom: 10px;
     }
-   
+
+    .cpa-program-why__item.splide__slide img {
+        width: 90%;
+    }
 }
 
 @media (max-width:575.98px) {
@@ -1271,61 +1266,32 @@ img {
         margin-top: unset;
     }
 
-    .splide__slide img {
-        width: 80%;
-    }
-    
     .splide__arrows.splide__arrows--ttb {
         position: absolute;
-        height: 100%;
-        top: -50px;
-        left: 50%;
-    }
 
-
-    .splide__arrows--ttb .splide__arrow--prev {
-        top: 1rem;
-    }
-
-  
-
-    .splide__arrows.splide__arrows--ttb {
-        // position: absolute;
-        // top: 40px;
-        // right: 6%;
-        // height: 300px;
-       
     }
 
     .splide__pagination--ttb {
-        // right: 5%;
-        // top: -45%;
-        // z-index: 10;
-        right: 6%;
+        position: unset;
+        top: unset;
+        left: unset;
+        right: unset;
+        height: 160px;
+        margin-top: 12%;
     }
- 
+
+    #splide-second {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+    }
 }
 
 @media (max-width:375px) {
     .cpa-program-why__img-container {
         height: 256px;
     }
-
-
-    // .splide__arrows.splide__arrows--ttb {
-    //     position: absolute;
-    //     top: 0;
-    //     right: 6%;
-    //     height: 270px;
-    // }
-
-    .splide__pagination--ttb {
-        right: 0%;
-        top: 18%;
-        transform: translate(-50%,-50%);
-        z-index: 10;
-    }
-
 }
 
 @media (max-width:320px) {
@@ -1336,9 +1302,4 @@ img {
     .cpa-program-advantages__list-container {
         padding: 30px;
     }
-
-    .splide__pagination--ttb {
-        top: 15%;
-    }
-
 }
