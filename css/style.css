@@ -886,6 +886,22 @@ img {
   .cpa-program-benefits-bg.circles::after {
     bottom: 80px;
   }
+  .splide__arrows--ttb .splide__arrow--next {
+    bottom: 5.5rem;
+  }
+  .splide__arrows--ttb .splide__arrow--prev {
+    top: 1.5rem;
+  }
+  .splide__slide img {
+    width: 90%;
+  }
+  .splide__pagination__page {
+    width: 12px;
+    height: 12px;
+  }
+  .splide__pagination li:not(:last-child) {
+    margin-bottom: 10px;
+  }
 }
 @media (max-width: 575.98px) {
   .cpa-program-why,
@@ -1032,10 +1048,31 @@ img {
   .cpa-program-why__list {
     margin-top: unset;
   }
+  .splide__slide img {
+    width: 80%;
+  }
+  .splide__arrows.splide__arrows--ttb {
+    position: absolute;
+    height: 100%;
+    top: -50px;
+    left: 50%;
+  }
+  .splide__arrows--ttb .splide__arrow--prev {
+    top: 1rem;
+  }
+  .splide__pagination--ttb {
+    right: 6%;
+  }
 }
 @media (max-width: 375px) {
   .cpa-program-why__img-container {
     height: 256px;
+  }
+  .splide__pagination--ttb {
+    right: 0%;
+    top: 18%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
   }
 }
 @media (max-width: 320px) {
@@ -1044,5 +1081,8 @@ img {
   }
   .cpa-program-advantages__list-container {
     padding: 30px;
+  }
+  .splide__pagination--ttb {
+    top: 15%;
   }
 }/*# sourceMappingURL=style.css.map */
