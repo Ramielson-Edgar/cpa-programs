@@ -1050,8 +1050,8 @@ img {
     top: unset;
     left: unset;
     right: unset;
-    height: 180px;
-    margin-top: 12%;
+    height: calc(200px - 1vw);
+    margin-top: calc(12% + 4vw);
   }
   #splide-second {
     display: flex;
@@ -1062,6 +1062,14 @@ img {
 @media (max-width: 375px) {
   .cpa-program-why__img-container {
     height: 256px;
+  }
+  .splide__pagination--ttb {
+    position: unset;
+    top: unset;
+    left: unset;
+    right: unset;
+    height: calc(200px - 1vw);
+    margin-top: calc(12% - 5vw);
   }
 }
 @media (max-width: 320px) {
