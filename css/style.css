@@ -890,9 +890,6 @@ img {
     width: 12px;
     height: 12px;
   }
-  .splide__pagination li:not(:last-child) {
-    margin-bottom: 10px;
-  }
   .cpa-program-why__item.splide__slide img {
     width: 90%;
   }
@@ -1042,34 +1039,10 @@ img {
   .cpa-program-why__list {
     margin-top: unset;
   }
-  .splide__arrows.splide__arrows--ttb {
-    position: absolute;
-  }
-  .splide__pagination--ttb {
-    position: unset;
-    top: unset;
-    left: unset;
-    right: unset;
-    height: calc(200px - 1vw);
-    margin-top: calc(12% + 4vw);
-  }
-  #splide-second {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
 }
 @media (max-width: 375px) {
   .cpa-program-why__img-container {
     height: 256px;
-  }
-  .splide__pagination--ttb {
-    position: unset;
-    top: unset;
-    left: unset;
-    right: unset;
-    height: calc(200px - 1vw);
-    margin-top: calc(12% - 5vw);
   }
 }
 @media (max-width: 320px) {
