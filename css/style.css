@@ -1032,17 +1032,6 @@ img {
   .cpa-program-why__list {
     margin-top: unset;
   }
-  .owl-carousel-why.owl-theme .owl-item img {
-    width: 90%;
-    margin-inline: auto;
-  }
-  .owl-carousel-why.owl-theme .owl-dots {
-    position: absolute;
-    top: 50px;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-  }
 }
 @media (max-width: 375px) {
   .cpa-program-why__img-container {

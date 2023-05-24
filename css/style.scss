@@ -806,7 +806,7 @@ img {
     background-color: var(--blue-500);
 }
 
-  
+
 .owl-carousel-why.owl-theme .owl-dots .owl-dot.active span,
 .owl-carousel-why.owl-theme .owl-dots .owl-dot:hover span,
 .owl-carousel-benefits.owl-theme .owl-dots .owl-dot.active span,
@@ -1061,11 +1061,14 @@ img {
     .cpa-program-benefits-bg.circles::after {
         bottom: 80px;
     }
+
+
+   
 }
 
 @media (max-width:575.98px) {
 
-    
+
     .cpa-program-why,
     .section-padding {
         padding: 50px 0;
@@ -1133,7 +1136,7 @@ img {
         column-gap: 10px;
     }
 
-    
+
     .cpa-program-benefits__body-text,
     .cpa-program-why__section-text {
         font-size: $font-size-13;
@@ -1240,7 +1243,7 @@ img {
     }
 
 
-    .owl-carousel-price.owl-theme .owl-dots .owl-dot.active span{
+    .owl-carousel-price.owl-theme .owl-dots .owl-dot.active span {
         width: 80px;
         height: 4px;
         border-radius: 5px;
@@ -1251,19 +1254,8 @@ img {
         margin-top: unset;
     }
 
-   .owl-carousel-why.owl-theme  .owl-item img {
-        width: 90%;
-        margin-inline: auto;
-    }
 
-    .owl-carousel-why.owl-theme .owl-dots {
-        position: absolute;
-        top: 50px;
-        right: 0;
 
-        display: flex;
-        flex-direction: column;
-    }
 }
 
 @media (max-width:375px) {
